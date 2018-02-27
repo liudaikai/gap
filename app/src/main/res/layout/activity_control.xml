@@ -1,0 +1,278 @@
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+tools:context="com.example.liukai.widget.Control">
+
+
+
+    <TextView
+        android:id="@+id/name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#be0e0a"
+        android:text="My Name is ZeluLi"
+        />
+
+    <Button
+        android:id="@+id/click_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点我"
+        />
+
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="placeHoder:type something here"
+        android:maxLines="3"
+        />
+
+    <Button
+        android:id="@+id/click_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点我"
+        />
+
+    <Button
+        android:id="@+id/click_button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点我1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <ProgressBar
+        android:id="@+id/my_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="200"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.liukai.widget.Control">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="60pt"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ff0000">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50pt"
+                android:orientation="horizontal"
+                android:background="#0000ff">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="#00ff00">
+
+
+                <Button
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:text="你好1"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="你好2"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.liukai.widget.Control">
+
+    <Button
+        android:id="@+id/button_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="center"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_center"
+        android:layout_centerInParent="true"
+        android:text="above"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/button_center"
+        android:layout_centerInParent="true"
+        android:text="left"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button_center"
+        android:layout_centerVertical="true"
+        android:text="right"
+
+        />
+
+
+</RelativeLayout>
+
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.liukai.widget.Control">
+
+     <TableLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:stretchColumns="1"
+         >
+
+
+         <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="用户名："
+                />
+             <EditText
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:text="请输入用户名"
+                 />
+
+
+         </TableRow>
+         <TableRow>
+
+             <Button
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:text="登录"
+                 android:layout_span="2"/>
+
+
+         </TableRow>
+     </TableLayout>
+
+</RelativeLayout>
+
+-->
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.liukai.widget.Control">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="60pt"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#ff0000">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50pt"
+            android:layout_height="60pt"
+            android:orientation="horizontal"
+            android:background="#37ff00"
+            >
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50pt"
+            android:layout_height="60pt"
+            android:orientation="vertical"
+            android:background="#ffc800"
+            >
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
